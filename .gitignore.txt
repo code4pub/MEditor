@@ -2,4 +2,8 @@
 *.suo
 *.vshost.*
 bin/
-obj/
+obj/*
+
+# only need /exeoutput/MDEditor.exe to git
+exeoutput/
+!exeoutput/MDEditor.exe
